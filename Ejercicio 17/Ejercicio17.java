@@ -5,6 +5,7 @@ public class Ejercicio17 {
             System.out.println("Ingrese el tamaño del array");
             int dimension = valor.nextInt();
             int[] arreglo = new int[dimension];
+            System.out.println();
             llenar(arreglo);
             Digitos(arreglo);
 
@@ -51,7 +52,7 @@ public class Ejercicio17 {
                 arreglo[i] = (int) (Math.random() * 99999);
         }
         for (int i = arreglo.length-1; i >=0; i--) {
-            System.out.println(arreglo[i]);
+            System.out.print(arreglo[i]+",");
         }      
         }
 
